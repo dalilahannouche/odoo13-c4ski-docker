@@ -1,0 +1,111 @@
+/*! CSS Used from: http://smartdemowp.com/diaco/wp-content/themes/diaco/style.css?ver=5.5.1 ; media=all */
+@media all{
+*{margin:0px;padding:0px;border:none;outline:none;}
+@media (min-width:1200px){
+.container{max-width:1170px;padding:0px;}
+}
+a{text-decoration:none;transition:all 500ms ease;-moz-transition:all 500ms ease;-webkit-transition:all 500ms ease;-ms-transition:all 500ms ease;-o-transition:all 500ms ease;}
+a:hover{text-decoration:none;outline:none;color:#c6a47e;}
+ul,li{list-style:none;padding:0px;margin:0px;}
+figure{margin:0px;}
+img{display:inline-block;max-width:100%;height:auto;}
+.clients-section{position:relative;display:block;padding:0px;}
+.clients-section .clients-outer{position:relative;display:block;border:1px solid #ddece6;padding:45px 30px 44px 30px;}
+.clients-section .clients-outer{position:relative;}
+.clients-section .owl-nav,.clients-section .owl-dots{display:none;}
+.clients-section.alternate-2{padding:50px 0px;}
+a{color:#c6a47e;}
+li.logo{list-style:none!important;margin-top:0!important;}
+ul.clients-carousel{padding:0;margin:0;}
+}
+/*! CSS Used from: http://smartdemowp.com/diaco/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.8.1 ; media=all */
+@media all{
+.elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{padding:10px;}
+@media (max-width:767px){
+.elementor-column{width:100%;}
+}
+}
+/*! CSS Used from: http://smartdemowp.com/diaco/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.8.1 ; media=all */
+@media all{
+.elementor *,.elementor :after,.elementor :before{-webkit-box-sizing:border-box;box-sizing:border-box;}
+.elementor a{-webkit-box-shadow:none;box-shadow:none;text-decoration:none;}
+.elementor img{height:auto;max-width:100%;border:none;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none;}
+.elementor .elementor-widget:not(.elementor-widget-text-editor):not(.elementor-widget-theme-post-content) figure{margin:0;}
+.elementor-section{position:relative;}
+.elementor-section .elementor-container{display:-webkit-box;display:-ms-flexbox;display:flex;margin-right:auto;margin-left:auto;position:relative;}
+@media (max-width:1024px){
+.elementor-section .elementor-container{-ms-flex-wrap:wrap;flex-wrap:wrap;}
+}
+.elementor-section.elementor-section-stretched{position:relative;width:100%;}
+.elementor-row{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;}
+@media (max-width:1024px){
+.elementor-row{-ms-flex-wrap:wrap;flex-wrap:wrap;}
+}
+.elementor-widget-wrap{position:relative;width:100%;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-line-pack:start;align-content:flex-start;}
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap{display:-webkit-box;display:-ms-flexbox;display:flex;}
+.elementor-widget-wrap>.elementor-element{width:100%;}
+.elementor-widget{position:relative;}
+.elementor-column{min-height:1px;}
+.elementor-column,.elementor-column-wrap{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;}
+.elementor-column-wrap{width:100%;}
+@media (min-width:768px){
+.elementor-column.elementor-col-100{width:100%;}
+}
+@media (max-width:767px){
+.elementor-column{width:100%;}
+}
+.elementor-element .elementor-widget-container{-webkit-transition:background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;transition:background .3s,border .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;-o-transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s;transition:background .3s,border .3s,border-radius .3s,box-shadow .3s,-webkit-border-radius .3s,-webkit-box-shadow .3s;}
+}
+/*! CSS Used from: http://smartdemowp.com/diaco/wp-content/themes/diaco/css/bootstrap.css ; media=all */
+@media all{
+*,*::before,*::after{box-sizing:border-box;}
+figure,section{display:block;}
+ul{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+a:hover{color:#0056b3;text-decoration:underline;}
+figure{margin:0 0 1rem;}
+img{vertical-align:middle;border-style:none;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width: 576px){
+.container{max-width:540px;}
+}
+@media (min-width: 768px){
+.container{max-width:720px;}
+}
+@media (min-width: 992px){
+.container{max-width:960px;}
+}
+@media (min-width: 1200px){
+.container{max-width:1140px;}
+}
+@media print{
+*,*::before,*::after{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+img{page-break-inside:avoid;}
+.container{min-width:992px!important;}
+}
+}
+/*! CSS Used from: http://smartdemowp.com/diaco/wp-content/themes/diaco/css/owl.css ; media=all */
+@media all{
+.owl-carousel{display:none;width:100%;-webkit-tap-highlight-color:transparent;position:relative;z-index:1;}
+.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y;}
+.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0;}
+.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0px, 0px, 0px);}
+.owl-carousel.owl-loaded{display:block;}
+.owl-carousel .owl-item{position:relative;min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.owl-carousel .owl-item img{display:block;width:none;-webkit-transform-style:preserve-3d;}
+.owl-carousel .owl-item img{transform-style:preserve-3d;}
+.owl-theme .owl-dots .owl-dot{display:inline-block;}
+.owl-theme .owl-dots .owl-dot span{background:transparent;display:block;margin:0px 5px 0px 5px;transition:opacity 200ms ease 0s;border:2px solid #ffffff;width:15px;height:15px;border-radius:50%;}
+.owl-theme .owl-dots .owl-dot.active span{background:none repeat scroll 0 0 #cda274;border:2px solid #cda274;}
+}
+/*! CSS Used from: http://smartdemowp.com/diaco/wp-content/themes/diaco/css/font-awesome-all.css ; media=all */
+@media all{
+.fa{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;display:inline-block;font-style:normal;font-variant:normal;text-rendering:auto;line-height:1;}
+.fa-angle-left:before{content:"\f104";}
+.fa-angle-right:before{content:"\f105";}
+.fa{font-family:'Font Awesome 5 Free';font-weight:900;}
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Font Awesome 5 Free';font-style:normal;font-weight:400;src:url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-regular-400.eot");src:url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-regular-400.eot#iefix") format("embedded-opentype"), url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-regular-400.woff2") format("woff2"), url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-regular-400.woff") format("woff"), url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-regular-400.ttf") format("truetype"), url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-regular-400.svg#fontawesome") format("svg");}
+@font-face{font-family:'Font Awesome 5 Free';font-style:normal;font-weight:900;src:url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-solid-900.eot");src:url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-solid-900.eot#iefix") format("embedded-opentype"), url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-solid-900.woff2") format("woff2"), url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-solid-900.woff") format("woff"), url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-solid-900.ttf") format("truetype"), url("http://smartdemowp.com/diaco/wp-content/themes/diaco/fonts/fa-solid-900.svg#fontawesome") format("svg");}

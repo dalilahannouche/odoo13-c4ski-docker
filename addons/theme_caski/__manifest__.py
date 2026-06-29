@@ -1,0 +1,28 @@
+{
+    'name': 'Caski Theme',
+    'description': 'Caski Architecture Theme',
+    'category': 'Theme/Services',
+    'sequence': 260,
+    'version': '1.0',
+    'depends': ['theme_common'],
+    'Author': 'Dalila Hannouche',
+    'data': [
+        'views/assets.xml',
+        'views/customize_modal.xml',
+        'views/snippets.xml',
+        'views/images_content.xml',
+        'views/images_library.xml',
+        'views/signin.xml',
+        'views/slider.xml',
+        'views/contact.xml',
+        'views/footer.xml',
+        'views/aboutus.xml',
+        'views/logo.xml',
+        'views/website_preloader_templates.xml',
+    ],
+    'images': [
+        'static/description/caski_description.png',
+        'static/description/caski_screenshot.jpg',
+    ],
+    'license': 'LGPL-3',
+}

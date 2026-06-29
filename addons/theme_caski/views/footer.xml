@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <!--template footer-->
+   <template id="footer_caski" name="Caski Footer" inherit_id="website.footer_custom">
+ <xpath expr="//footer[@id='bottom']" position="replace">
+		<footer class="main-footer image_background" data-image-src="/theme_caski/static/src/img/imgcaski/footer_background.jpg" style="background-image: url(&quot;/theme_caski/static/src/img/imgcaski/footer_background.jpg&quot;);">
+<!--footer upper-->
+    <div class="container">
+                <div class="widget-section">
+    <div class="row">
+        <!--Footer Column-->
+        <div class="widget_text widget_custom_html col-lg-3 col-md-6 col-sm-12 footer-column" id="custom_html-3"><div class="textwidget custom-html-widget"><div class="logo-widget">
+		
+<figure class="footer-logo"><a href="/"><img src="/theme_caski/static/src/img/imgcaski/logocaski.png" alt="footer-logo"/></a></figure>
+<div class="text">Nulla vitae cursus quam, nec ultrices nibh. Quisque tristique lorem ac diam laoreet auctor. Proin ac massa elit.</div>
+<ul class="social-links">
+<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa fa-linkedin-in"></i></a></li>
+<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+</ul>
+</div> </div></div><div class="post-widget col-lg-3 col-md-6 col-sm-12 footer-column" id="widget_latest_posts_tab-2"><h3 class="widget-title">LATEST NEWS</h3>		<div class="caski_widget_latest_post_container">
+			<div class="widget-content">
+							<div class="post"><a href="#">The 2019 Oscars Greenroom by Rolex Goes Deep</a></div>
+									<div class="post"><a href="#">The 2019 Oscars Greenroom by Rolex Goes Deep.</a></div>
+									<div class="post"><a href="#">The 2019 Oscars Greenroom by Rolex Goes Deep.</a></div>
+								</div>
+		</div>
+		</div><div class="widget_media_gallery col-lg-3 col-md-6 col-sm-12 footer-column" id="media_gallery-2"><h3 class="widget-title">Gallery</h3><div id="gallery-1" class="gallery galleryid-377 gallery-columns-3 gallery-size-thumbnail"><figure class="gallery-item">
+			<div class="gallery-icon landscape">
+				<img width="85" height="85" src="http://smartdemowp.com/diaco/wp-content/uploads/2020/06/footer-1.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy"/>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon landscape">
+				<img width="85" height="85" src="http://smartdemowp.com/diaco/wp-content/uploads/2020/06/footer-3.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy"/>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon landscape">
+				<img width="85" height="85" src="http://smartdemowp.com/diaco/wp-content/uploads/2020/06/footer-2.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy"/>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon landscape">
+				<img width="85" height="85" src="http://smartdemowp.com/diaco/wp-content/uploads/2020/06/footer-5.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy"/>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon landscape">
+				<img width="85" height="85" src="http://smartdemowp.com/diaco/wp-content/uploads/2020/06/footer-4.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy"/>
+			</div></figure><figure class="gallery-item">
+			<div class="gallery-icon landscape">
+				<img width="85" height="85" src="http://smartdemowp.com/diaco/wp-content/uploads/2020/06/footer-6.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy"/>
+			</div></figure>
+		</div>
+</div><div class="widget_text widget_custom_html col-lg-3 col-md-6 col-sm-12 footer-column" id="custom_html-4"><h3 class="widget-title">Contact us</h3><div class="textwidget custom-html-widget"><div class="contact-widget">
+<ul class="list">
+                                    <li>
+                                        <span>Address :</span>
+                                        Q4Ski Ltd., ul. Olowiana 12, 85-461 Bydgoszcz, Poland
+                                    </li>
+                                    <li>
+                                        <span>Call Us :</span>
+                                        <a href="tel:+48 601 424 327">+48 601 424 327</a>
+                                    </li>
+                                    <li>
+                                        <span>Email :</span>
+                                        <a href="mailto:office@q4ski.com">office@q4ski.com</a>
+                                    </li>
+                                </ul>
+		
+	
+</div></div></div>    </div>
+</div>
+                <div class="footer-bottom centred">
+            <div class="copyright">© <a href="#">c4ski</a> 2020. All Rights Reserved.</div>
+        </div>
+    </div>
+</footer>
+ 	</xpath>
+ 	 </template>
+
+ 	 
+   <template id="footer_frontend" name="FrontEnd Footer" inherit_id="website.footer_custom">
+        <xpath expr=".">
+      <link rel="stylesheet" href="/theme_caski/static/src/css/footer.css" type="text/css"/>
+        </xpath>
+    </template>
+
+</odoo>

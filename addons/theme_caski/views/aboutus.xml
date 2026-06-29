@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="menu_aboutus" model="website.menu">
+      <field name="name">About Us</field>
+      <field name="url">/about-us</field>
+      <field name="parent_id" ref="website.main_menu"/>
+      <field name="sequence">2</field>
+    </record>
+    <template id="aboutus_page" name="Aboutus Caski">
+      <t t-call="website.layout">
+
+<section class="banner_area">
+<div class="banner_inner d-flex align-items-center">
+<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="" style="transform: translateY(0px);"></div>
+<div class="container">
+<div class="banner_content text-center">
+<h2>About Us</h2>
+<div class="page_link">
+<a href="/">Home</a>
+<a href="/about-us">About Us</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+ <section class="about-style-two about-page-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-12 col-sm-12 image-column">
+					<div class="image-box line-overlay wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInLeft;">
+						<figure class="image">
+							<span class="line active"></span>
+							<span class="line line-bottom active"></span>
+							<img src="http://smartdemowp.com/diaco/wp-content/uploads/2020/06/about-4.jpg" alt="about agent image"/>
+							<h2>Norbert<br/>Fiverr</h2> 
+						</figure>
+						<div class="rotate-text">About diaco</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 content-column">
+				<div class="content-box wow slideInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInRight;">
+					 <div class="text">Et quo paulo inciderint. Ad meis mentitum contentiones mei, usu partem invenire ea. Cum illud tollit et, cu eum oporteat deserunt. Pro ceteros petentium dignissim in, eu vix volumus consulatu referrentur. Te elit labitur omittantur eum, vix nonumes patrioque iracundia ut.movet facilisi referrentur ea has. Ea odio duis laboramus his, sed eros tibique invidunt id, id ius iriure albucius. Deserunt consulatu nam no, vix at quidam verterem ullamcorper.</div><p>Movet facilisi referrentur ea has. Ea odio duis laboramus his, sed eros tibique invidunt id, id ius iriure albucius. Deserunt consulatu nam no, vix at quidam verterem ullamcorper.<br/>Et quo paulo inciderint. Ad meis mentitum contentiones mei, usu partem invenire ea. Cum illud tollit et, cu eum oporteat deserunt. Pro ceteros petentium dignissim in, eu vix volumus consulatu referrentur. Te elit labitur omittantur eum, vix nonumes patrioque iracundia ut.</p>					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- testimonial-->
+	<!-- TESTIMONIALS -->
+<div class="gdlr-core-pbf-wrapper-content gdlr-core-js "><div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full-no-space"><div class="gdlr-core-pbf-element"><div class="gdlr-core-personnel-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-personnel-item-style-modern-no-space gdlr-core-personnel-style-modern gdlr-core-with-divider  gdlr-core-item-pdlr" style="padding-bottom: 0px ;"><div class="gdlr-core-personnel-item-holder clearfix"><div class="gdlr-core-item-list gdlr-core-personnel-list-column  gdlr-core-column-15 gdlr-core-column-first"><div class="gdlr-core-personnel-list clearfix"><div class="gdlr-core-personnel-list-image gdlr-core-media-image  gdlr-core-hover-element gdlr-core-zoom-on-hover"><a href="https://demo.goodlayers.com/infinite/homepages/architek/personnel/paul-smith/"><img src="https://demo.goodlayers.com/infinite/homepages/architek/wp-content/uploads/sites/21/2016/08/personnel-sq-6-500x575.jpg" alt="" width="500" height="575" title="personnel-sq-6"/></a><div class="gdlr-core-hover-opacity"></div></div><div class="gdlr-core-personnel-list-content-wrap "><div class="gdlr-core-personnel-list-title gdlr-core-title-font"><a href="https://demo.goodlayers.com/infinite/homepages/architek/personnel/paul-smith/">Norbert Fiverr</a></div><div class="gdlr-core-personnel-list-position gdlr-core-info-font">Senior Architect</div></div></div></div><div class="gdlr-core-item-list gdlr-core-personnel-list-column  gdlr-core-column-15"><div class="gdlr-core-personnel-list clearfix"><div class="gdlr-core-personnel-list-image gdlr-core-media-image  gdlr-core-hover-element gdlr-core-zoom-on-hover"><a href="https://demo.goodlayers.com/infinite/homepages/architek/personnel/paul-franky/"><img src="https://demo.goodlayers.com/infinite/homepages/architek/wp-content/uploads/sites/21/2016/08/personnel-sq-2-500x575.jpg" alt="" width="500" height="575" title="personnel-sq-2"/></a><div class="gdlr-core-hover-opacity"></div></div><div class="gdlr-core-personnel-list-content-wrap "><div class="gdlr-core-personnel-list-title gdlr-core-title-font"><a href="https://demo.goodlayers.com/infinite/homepages/architek/personnel/paul-franky/">Paul Franky</a></div><div class="gdlr-core-personnel-list-position gdlr-core-info-font">Chief Financial Officer</div></div></div></div><div class="gdlr-core-item-list gdlr-core-personnel-list-column  gdlr-core-column-15"><div class="gdlr-core-personnel-list clearfix"><div class="gdlr-core-personnel-list-image gdlr-core-media-image  gdlr-core-hover-element gdlr-core-zoom-on-hover"><a href="https://demo.goodlayers.com/infinite/homepages/architek/personnel/david-parker/"><img src="https://demo.goodlayers.com/infinite/homepages/architek/wp-content/uploads/sites/21/2016/08/Personnel-3-500x575.jpg" alt="" width="500" height="575" title="Sharp dressed fashionist wearing jacket and bow tie"/></a><div class="gdlr-core-hover-opacity"></div></div><div class="gdlr-core-personnel-list-content-wrap "><div class="gdlr-core-personnel-list-title gdlr-core-title-font"><a href="https://demo.goodlayers.com/infinite/homepages/architek/personnel/david-parker/">David Parker</a></div><div class="gdlr-core-personnel-list-position gdlr-core-info-font">Chief Executive Officer</div></div></div></div><div class="gdlr-core-item-list gdlr-core-personnel-list-column  gdlr-core-column-15"><div class="gdlr-core-personnel-list clearfix"><div class="gdlr-core-personnel-list-image gdlr-core-media-image  gdlr-core-hover-element gdlr-core-zoom-on-hover"><a href="https://demo.goodlayers.com/infinite/homepages/architek/personnel/alan-cooper/"><img src="https://demo.goodlayers.com/infinite/homepages/architek/wp-content/uploads/sites/21/2016/08/personnel-sq-3-500x575.jpg" alt="" width="500" height="575" title="personnel-sq-3"/></a><div class="gdlr-core-hover-opacity"></div></div><div class="gdlr-core-personnel-list-content-wrap "><div class="gdlr-core-personnel-list-title gdlr-core-title-font"><a href="https://demo.goodlayers.com/infinite/homepages/architek/personnel/alan-cooper/">Alan Cooper</a></div><div class="gdlr-core-personnel-list-position gdlr-core-info-font">Vice President</div></div></div></div></div></div></div></div></div>
+    
+    <!-- END OF TESTIMONIALS -->
+      </t>
+    </template>
+
+    <template id="assets_frontendaboutus_page" inherit_id="theme_caski.aboutus_page" priority="1">
+       <xpath expr="." position="inside">
+         <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/page_about_us.css"/>
+          <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/testimonial.css"/>
+        </xpath>
+    </template>
+   
+</odoo>

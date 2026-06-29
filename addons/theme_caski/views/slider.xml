@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+ <record id="menu_home" model="website.menu">
+      <field name="name">Home</field>
+      <field name="url">/</field>
+      <field name="parent_id" ref="website.main_menu"/>
+      <field name="sequence">1</field>
+    </record>
+
+    <template id="newhome_page" name="Home Caski">
+      <t t-call="website.layout">
+     <section class="sectioun">
+  
+    <div class="section">
+      <ul class="case-study-wrapper">
+        <li class="case-study-name">                              
+          <a href="#" class="hover-target">Thank you Norbert</a>
+        </li>
+        <li class="case-study-name">                                          
+          <a href="#" class="hover-target">For trusting me</a>
+        </li>
+        <li class="case-study-name">                                          
+          <a href="#" class="hover-target">Good luck !</a>
+        </li>
+        <li class="case-study-name">                                          
+          <a href="#" class="hover-target">This project is fabulous !</a>
+        </li>
+      </ul>
+      <a href="#sec1" class="hero-scroll-link custom-scroll-link skrollable skrollable-between" data-top-bottom="transform: translateY(50px);" data-bottom-top="transform: translateY(-50px);" style="transform: translateY(-5.31915px);"><i class="fa fa-angle-down" style="
+    /* float: left; */
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    text-align: center;
+"></i></a>
+      <ul class="case-study-images">
+        <li>
+          <div class="img-hero-background"></div> 
+          <div class="dark-over-hero"></div>  
+          <div class="hero-number-back">01</div> 
+          <div class="hero-number">01</div> 
+          <div class="hero-number-fixed">04</div> 
+          <div class="case-study-title">Title 1, Lorem Ipsum</div> 
+        </li>
+        <li>
+          <div class="img-hero-background"></div> 
+          <div class="hero-number-back">02</div> 
+          <div class="hero-number">02</div>  
+          <div class="case-study-title">Title 2, Lorem Ipsum</div> 
+        </li>
+        <li>
+          <div class="img-hero-background"></div>
+          <div class="hero-number-back">03</div>  
+          <div class="hero-number">03</div> 
+          <div class="case-study-title">Title 3, Lorem Ipsum</div> 
+        </li>
+        <li>
+          <div class="img-hero-background"></div> 
+          <div class="hero-number-back">04</div> 
+          <div class="hero-number">04</div> 
+          <div class="case-study-title">Title 4, Lorem Ipsum</div> 
+        </li>
+      </ul> 
+    </div>
+    
+    <!-- Page cursor
+    ================================================== -->
+    
+        <div class='cursor' id="cursor"></div>
+        <div class='cursor2' id="cursor2"></div>
+        <div class='cursor3' id="cursor3"></div> 
+
+    <!-- Page About us
+    ================================================== -->
+
+<section class="elementor-section elementor-top-section elementor-element elementor-element-2905743 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="2905743" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+            <div class="elementor-container elementor-column-gap-no">
+              <div class="elementor-row">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-38cec5b" data-id="38cec5b" data-element_type="column">
+      <div class="elementor-column-wrap elementor-element-populated">
+              <div class="elementor-widget-wrap">
+            <div class="elementor-element elementor-element-3e0e105 elementor-widget elementor-widget-Diac About Agent" data-id="3e0e105" data-element_type="widget" data-widget_type="Diac About Agent.default">
+        <div class="elementor-widget-container">
+            <!-- about-style-two -->
+  <section class="about-style-two "  id="sec1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+          <div class="image-box line-overlay wow slideInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInLeft;">
+            <figure class="image">
+              <span class="line active"></span>
+              <span class="line line-bottom active"></span>
+              <img src="/theme_caski/static/src/img/imgcaski/about_us.jpg" alt="about agent image"/>
+              Default descript<h2>5 Years<br/>Experience</h2>ion 
+            </figure>
+            <div class="rotate-text">About c4ski</div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+        <div class="content-box wow slideInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInRight;">
+           <p><span class="top-title">About our company</span></p><div class="sec-title"><h1>Ad meis mentitum contentiones mei.</h1></div><div class="text">Te elit labitur omittantur eum, vix nonumes patrioque iracundia ut.movet facilisi referrentur ea has.Ea odio duis laboramus his, sed eros tibique invidunt id, id ius iriure albucius.</div><div class="link"><a href="/about-us">Discover more about our story</a></div>         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about-style-two end -->
+  <!-- numbers count-->
+  <section class="elementor-section elementor-top-section elementor-element elementor-element-3ce79b3 elementor-section-stretched elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="3ce79b3" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+              <div class="elementor-row">
+          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7b74589" data-id="7b74589" data-element_type="column">
+      <div class="elementor-column-wrap elementor-element-populated">
+              <div class="elementor-widget-wrap">
+            <div class="elementor-element elementor-element-f013f16 elementor-widget elementor-widget-counter" data-id="f013f16" data-element_type="widget" data-widget_type="counter.default">
+        <div class="elementor-widget-container">
+        <!-- fact-counter -->
+  <section class="fact-counter centred ">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+          <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 400ms; animation-name: slideInUp;">
+            <div class="count-outer count-box counted">
+              <span class="count-text timer count-title count-number" data-speed="1500" data-to="
+              2                 ">2</span>
+                                   
+            </div>
+            <div class="text"><h3> CONTRACTS FOR SKI JUMPING HILLS</h3></div>
+          </div>
+        </div>
+
+          
+        <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+          <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 400ms; animation-name: slideInUp;">
+            <div class="count-outer count-box counted">
+              <span class="count-text timer count-title count-number" data-speed="1500" data-to="
+              11                 ">11</span>
+                                   
+            </div>
+            <div class="text"><h3> RESEARCHE AND DEVELOPMENT PROJECTS</h3></div>
+          </div>
+        </div>
+
+          
+        <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+          <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 400ms; animation-name: slideInUp;">
+            <div class="count-outer count-box counted">
+              <span class="count-text timer count-title count-number" data-speed="1500" data-to="
+              4                ">4</span>
+              <span>+</span>                     
+            </div>
+            <div class="text"><h3> PATENT APPLICATION</h3></div>
+          </div>
+        </div>
+
+          
+        <div class="col-lg-3 col-md-6 col-sm-12 counter-column">
+          <div class="counter-block-one wow slideInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 400ms; animation-name: slideInUp;">
+            <div class="count-outer count-box counted">
+              <span class="count-text timer count-title count-number" data-speed="1500" data-to="
+              5               ">5</span>
+                                   
+            </div>
+            <div class="text"><h3> OPERATED YEARS</h3></div>
+          </div>
+        </div>
+
+              </div>
+    </div>
+  </section>
+  <!-- fact-counter end -->
+        </div>
+        </div>
+            </div>
+          </div>
+    </div>
+                </div>
+          </div>
+    </section>
+  <!-- numbers count-->
+
+        </div>
+        </div>
+            </div>
+          </div>
+    </div>
+                </div>
+          </div>
+    </section>
+    <div class="project-title wow slideInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible;animation-duration: 1500ms;animation-delay: 0ms;animation-name: slideInRight;text-align: left!important;position: relative;margin-left: 137px;">VIDEO</div>
+    <div class="wrapper">
+  <input type="checkbox"/>
+  <div class="video">
+    <video src="/theme_caski/static/src/video/videocaski.mp4" loop="true" muted="true" autoplay="true"></video>
+  </div>
+  <div class="text">
+    <span data-text="Click here"></span>
+  </div>
+</div>
+<!--blog -->
+<section class="project-style-two  single-team-page">
+    <div class="project-title wow slideInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInRight;">BLOG</div>
+    <div class="container">
+      <div class="sec-title">
+        <span class="top-title">BLOG</span>
+        <h1>Our <span>Blog.</span></h1>     </div>
+
+           
+     <div class="project-block-two line-overlay wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+        <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12 image-column">
+            <figure class="image-box">
+              <span class="line"></span>
+              <span class="line line-bottom"></span>
+              <img src="/theme_caski/static/src/img/imgcaski/blog_1.jpg" alt="portfolio image"/>
+            </figure>
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12 content-column">
+            <div class="content-box">
+              <div class="top-content">
+                <div class="icon-box"><img class="img-fluid o_we_custom_image" src="/theme_caski/static/src/img/imgcaski/icon_blog.png" data-original-title="" title="" aria-describedby="tooltip961721"/></div>
+                <div class="count-text">01</div>
+                <h2><a href="#">Concept &amp; Details</a></h2>
+              </div>
+              <div class="text"><p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p></div>
+              <div class="link"><a href="#">View Project</a></div>
+            </div>
+          </div>
+                </div>
+      </div>
+             
+     <div class="project-block-two line-overlay wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+        <div class="row">
+              
+          <div class="col-lg-5 col-md-12 col-sm-12 content-column">
+            <div class="content-box">
+              <div class="top-content">
+                <div class="icon-box"><img class="img-fluid o_we_custom_image" src="/theme_caski/static/src/img/imgcaski/icon_blog.png" data-original-title="" title="" aria-describedby="tooltip961721"/></div>
+                <div class="count-text">02</div>
+                <h2><a href="#">Perfection</a></h2>
+              </div>
+              <div class="text"><p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p></div>
+              <div class="link"><a href="#/">View Project</a></div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12 col-sm-12 image-column">
+            <figure class="image-box">
+              <span class="line"></span>
+              <span class="line line-bottom"></span>
+              <img src="/theme_caski/static/src/img/imgcaski/blog_2.jpg" alt="portfolio image"/>
+            </figure>
+          </div>
+                </div>
+      </div>
+             
+     <div class="project-block-two line-overlay wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
+        <div class="row">
+                      <div class="col-lg-7 col-md-12 col-sm-12 image-column">
+            <figure class="image-box">
+              <span class="line"></span>
+              <span class="line line-bottom"></span>
+              <img src="/theme_caski/static/src/img/imgcaski/blog_3.jpg" alt="portfolio image"/>
+            </figure>
+          </div>
+          <div class="col-lg-5 col-md-12 col-sm-12 content-column">
+            <div class="content-box">
+              <div class="top-content">
+                <div class="icon-box"><img class="img-fluid o_we_custom_image" src="/theme_caski/static/src/img/imgcaski/icon_blog.png" data-original-title="" title="" aria-describedby="tooltip961721"/></div>
+                <div class="count-text">03</div>
+                <h2><a href="#">Design</a></h2>
+              </div>
+              <div class="text"><p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p></div>
+              <div class="link"><a href="#">View Project</a></div>
+            </div>
+          </div>
+                </div>
+      </div>
+          
+  <div class="view-btn centred"><a href="/blog">View All Projects</a></div>
+    
+  
+</div>
+
+</section>
+
+      </section>
+    
+      </t>
+    </template>
+
+    <template id="assets_frontendnewhome" inherit_id="theme_caski.newhome_page" priority="1">
+       <xpath expr="." position="inside">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet"/>
+         <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/slider.css"/>
+         <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/aboutus.css"/>
+         <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/blog.css"/>
+         <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/numbers.css"/>
+         <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/animate.css"/>
+          <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/stylebox.css"/>
+        
+        </xpath>
+
+
+       <!-- <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/theme_caski/static/src/js/slider.js"></script>
+        </xpath>-->
+    </template>
+
+
+    <template id="assets_logincaski" inherit_id="web.login">
+       <xpath expr="." position="inside">
+          <link rel="stylesheet" type="text/css" href="/theme_caski/static/src/css/login_page.css"/>
+        
+        </xpath>
+
+
+       <!-- <xpath expr="script[last()]" position="after">
+            <script type="text/javascript" src="/theme_caski/static/src/js/slider.js"></script>
+        </xpath>-->
+    </template>
+</odoo>
