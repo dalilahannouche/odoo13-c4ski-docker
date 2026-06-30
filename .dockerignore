@@ -1,0 +1,17 @@
+.git
+.gitignore
+
+__pycache__/
+*.pyc
+
+.vscode/
+
+.idea/
+
+*.log
+
+filestore/
+
+postgres_data/
+
+.env
