@@ -8,6 +8,7 @@ COPY ./entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
 
+ENV PORT=8069
 EXPOSE 8069
 
 ENTRYPOINT ["/entrypoint.sh"]
