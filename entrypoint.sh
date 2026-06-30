@@ -7,6 +7,6 @@ exec odoo \
   --db_port="$DB_PORT" \
   --db_user="$DB_USER" \
   --db_password="$DB_PASSWORD" \
-  --http-port=$PORT \
+  --http-port="$PORT" \
   --proxy-mode \
-  --config=/etc/odoo/odoo.conf
+  --init=base
